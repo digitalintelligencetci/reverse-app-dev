@@ -62,7 +62,7 @@ TEMPLATES = [
 ]
 
 # WSGI application for deployment
-WSGI_APPLICATION = 'rss_app.wsgi.application'
+WSGI_APPLICATION = 'rss_main.wsgi.application'
 
 # Database configuration (SQLite in development)
 DATABASES = {
