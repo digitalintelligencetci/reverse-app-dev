@@ -23,7 +23,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'crispy_forms',
     'crispy_bulma',
-    'roadside_service_app',  # Correct app name here
+    'rss_app',  # Correct app name here
 ]
 
 # Crispy Forms Configuration
@@ -42,7 +42,7 @@ MIDDLEWARE = [
 ]
 
 # Root URL configuration
-ROOT_URLCONF = 'roadside_service.urls'
+ROOT_URLCONF = 'rss_app.urls'
 
 # Template settings
 TEMPLATES = [
@@ -62,7 +62,7 @@ TEMPLATES = [
 ]
 
 # WSGI application for deployment
-WSGI_APPLICATION = 'roadside_service.wsgi.application'
+WSGI_APPLICATION = 'rss_app.wsgi.application'
 
 # Database configuration (SQLite in development)
 DATABASES = {
