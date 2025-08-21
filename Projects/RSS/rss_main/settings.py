@@ -117,4 +117,4 @@ LOGOUT_REDIRECT_URL = '/'
 # Default primary key field type
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-AUTH_USER_MODEL = 'roadside_service_app.User'  # Point to your custom User model
+AUTH_USER_MODEL = 'rss_app.User'  # Point to your custom User model
