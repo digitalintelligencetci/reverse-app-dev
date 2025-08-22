@@ -13,14 +13,18 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "com.roadside.service.rssmobileapp",
+      "supportsTablet": true,
+      "buildNumber": "1.0.0"
     },
     "android": {
+      "package": "com.roadside.service.rssmobileapp",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
